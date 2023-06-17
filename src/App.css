@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-left: 10%;
+  gap: 10px;
+
+}
+
+.box{
+  width: 30%;
+  height: 200px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
